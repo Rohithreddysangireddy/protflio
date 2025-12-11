@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #00c4ff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .about, .projects, .contact {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .projects .project-card {
+            background: #eee;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer who loves building beautiful websites and applications.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A cool description about your first project.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Another amazing project you worked on.</p>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: yourname@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
